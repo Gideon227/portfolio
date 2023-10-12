@@ -38,8 +38,8 @@ const Projects = () => {
     }
    ]
   return (
-    <section className='lg:py-8 py-2 lg:px-10'>
-        <p className="lg:ps-20 lg:pe-96 py-28 max-sm:py-8 px-5">
+    <section className='lg:py-8 py-2 px-10'>
+        <p className="lg:ps-20 lg:pe-96 py-28 max-sm:py-8 max-lg:-mx-5 lg:px-5">
           <AnimatedParagraph 
             text={[
               `I'm a Full-stack website developer with skills ranging from conceptual thinking to`,

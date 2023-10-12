@@ -160,7 +160,7 @@ const Footer = () => {
 
         <div className='lg:hidden space-y-3 justify-center text-center items-center sm:mx-20 max-sm:mx-6 mt-20'>
             <div>
-                <h1 className='text-white text-[40px] max-sm:text-[35px] font-medium'>Let&apos;s work together</h1>
+                <h1 className='text-white text-[30px] max-sm:text-[35px] font-medium'>Let&apos;s work together</h1>
                 <p className='text-[#888888] text-[14px] text-center max-sm:whitespace-normal font-medium whitespace-nowrap'>I would love to hear from you, so please feel free to reach out</p>
             </div>
             
@@ -277,10 +277,10 @@ const Footer = () => {
                 </Link>
             </div>
 
-            <p className='pt-6 text-center text-[#888888] text-[10px] font-medium whitespace-nowrap'>
+            <p className='pt-6 text-center text-[#888888] text-[12px] font-medium whitespace-nowrap'>
                 © 2023 Olaiya Gideon. All Rights Reserved
             </p>
-            <p className='text-center text-[#888888] text-[10px] font-normal whitespace-nowrap pt-2 pb-10'>
+            <p className='text-center text-[#888888] text-[12px] font-normal whitespace-nowrap pt-2 pb-10'>
                 Designed with 💜 by <span className='font-medium'>Me</span>
             </p>
 
