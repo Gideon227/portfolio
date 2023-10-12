@@ -46,10 +46,10 @@ const Hero = () => {
             animate={{opacity: 1}} 
             transition={{delay: 3, duration: 0.5, staggerChildren: 0.5, ease: easeIn}}
             className='flex flex-row space-x-2 mt-12 justify-end me-12 overflow-hidden'>
-              <motion.li initial={{ y: '30vh' }} animate={{ y: 0 }} transition={{ delay: 4, ease: easeOut, duration: 1.5}}><Link href='/' className="text-[16px] font-medium my-auto text-white">📸 IN</Link></motion.li>
-              <motion.li initial={{ y: '30vh' }} animate={{ y: 0 }} transition={{ delay: 4.25, ease: easeOut, duration: 1.5}}><Link href='/' className="text-[16px] font-medium my-auto text-white">𝕏 TW</Link></motion.li>
-              <motion.li initial={{ y: '30vh' }} animate={{ y: 0 }} transition={{ delay: 4.5, ease: easeOut, duration: 1.5}}><Link href='/' className="text-[16px] font-medium my-auto text-white">💼 LD</Link></motion.li>
-              <motion.li initial={{ y: '30vh' }} animate={{ y: 0 }} transition={{ delay: 4.75, ease: easeOut, duration: 1.5}}><Link href='/' className="text-[16px] font-medium my-auto text-white">📞 PH</Link></motion.li>
+              <motion.li initial={{ y: '30vh' }} animate={{ y: 0 }} transition={{ delay: 4, ease: easeOut, duration: 1.5}}><Link href='https://www.instagram.com/gideondev_/' className="text-[16px] font-medium my-auto text-white">📸 IN</Link></motion.li>
+              <motion.li initial={{ y: '30vh' }} animate={{ y: 0 }} transition={{ delay: 4.25, ease: easeOut, duration: 1.5}}><Link href='https://x.com/X__developer?t=akj83scMEsH8VeRDmK0jug&s=09' className="text-[16px] font-medium my-auto text-white">𝕏 TW</Link></motion.li>
+              <motion.li initial={{ y: '30vh' }} animate={{ y: 0 }} transition={{ delay: 4.5, ease: easeOut, duration: 1.5}}><Link href='https://www.linkedin.com/in/gideon-olaiya-852057209/' className="text-[16px] font-medium my-auto text-white">💼 LD</Link></motion.li>
+              <motion.li initial={{ y: '30vh' }} animate={{ y: 0 }} transition={{ delay: 4.75, ease: easeOut, duration: 1.5}}><button onClick='tel:+2349065916691' className="text-[16px] font-medium my-auto text-white">📞 PH</button></motion.li>
           </motion.div>
         </div>
       </div>
@@ -72,7 +72,7 @@ const Hero = () => {
             className='text-[16px] text-center align-center justify-center py-2 font-normal text-gray-400 leading-6 flex flex-wrap'
           /></p> */}
 
-        <motion.div initial={{opacity: 0}} animate={{opacity: 1}} transition={{delay: 2.5, duration: 0.5, ease: easeIn}} className="justify-center mt-2 items-center pe-4">
+        <motion.div initial={{opacity: 0}} animate={{opacity: 1}} transition={{delay: 2.5, duration: 0.5, ease: easeIn}} className="justify-center mt-8 items-center pe-4">
           <Image src='/Hero.jpeg' width={1000} height={600} alt='hero image' className="w-[800px] overflow-hidden" priority/>
         </motion.div>
 

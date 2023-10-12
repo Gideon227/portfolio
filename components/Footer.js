@@ -16,9 +16,10 @@ const Footer = () => {
             {/** Laptop and Desktop footer */}
         
         <div className='space-y-3 justify-center text-center items-center mx-20 mt-20 max-lg:hidden'>
-            <h1 className='text-white text-[40px] font-medium'>Let&apos;s work together</h1>
-            <p className='text-[#888888] text-[14px] font-medium whitespace-nowrap'>I would love to hear from you, so please feel free to reach out</p>
-            
+            <div>
+                <h1 className='text-white text-[60px] font-medium'>Let&apos;s work together</h1>
+                <p className='text-[#888888] text-[14px] font-medium whitespace-nowrap'>I would love to hear from you, so please feel free to reach out</p>
+            </div>
             <div className='flex justify-center space-x-10 items-center py-4 mx-12'>
                 <button className='flex group w-32 relative py-2 px-4 rounded-3xl bg-white hover:bg-[#F5DD37] transition duration-100 overflow-hidden'>
                     <div className='relative group-hover:-translate-x-4 transition duration-300 flex space-x-2'>
@@ -31,7 +32,7 @@ const Footer = () => {
                 </button>
 
 
-                <button className='flex group w-[200px] relative py-2 px-4 rounded-3xl bg-[#161616] transition duration-100 overflow-hidden'>
+                <button onClick='mailto:golaiya123@gmail.com' className='flex group w-[200px] relative py-2 px-4 rounded-3xl bg-[#161616] transition duration-100 overflow-hidden'>
                     <div className='relative group-hover:-translate-x-4 transition duration-300 flex space-x-3'>
                         <span className='group-hover:opacity-0 transition duration-200'>
                             <GoMail size={17} className='text-white my-auto'/>
@@ -42,7 +43,7 @@ const Footer = () => {
                 </button>
 
 
-                <button className='flex group w-[190px] justify-center relative py-2 px-2 rounded-3xl bg-[#161616] transition duration-100 overflow-hidden'>
+                <button onClick='tel:+2349065916691' className='flex group w-[190px] justify-center relative py-2 px-2 rounded-3xl bg-[#161616] transition duration-100 overflow-hidden'>
                     <div className='relative group-hover:-translate-x-4 transition duration-300 flex space-x-3'>
                         <span className='group-hover:opacity-0 transition duration-200'>
                             <PiPhoneCallLight size={17} className='text-white my-auto'/>
@@ -158,9 +159,10 @@ const Footer = () => {
 
 
         <div className='lg:hidden space-y-3 justify-center text-center items-center sm:mx-20 max-sm:mx-6 mt-20'>
-            <h1 className='text-white text-[40px] max-sm:text-[25px] font-medium'>Let&apos;s work together</h1>
-            <p className='text-[#888888] text-[14px] text-center max-sm:whitespace-normal font-medium whitespace-nowrap'>I would love to hear from you, so please feel free to reach out</p>
-
+            <div>
+                <h1 className='text-white text-[40px] max-sm:text-[35px] font-medium'>Let&apos;s work together</h1>
+                <p className='text-[#888888] text-[14px] text-center max-sm:whitespace-normal font-medium whitespace-nowrap'>I would love to hear from you, so please feel free to reach out</p>
+            </div>
             
             <div className='flex justify-between items-center py-4 sm:mx-2 max-sm:-mx-4 md:mx-14'>
                 <button className='flex group items-center justify-center w-32 max-sm:w-40 relative py-2 max-sm:py-1 max-sm:px-3 px-4 rounded-3xl bg-white hover:bg-[#F5DD37] transition duration-100 overflow-hidden'>
@@ -174,7 +176,7 @@ const Footer = () => {
                 </button>
 
 
-                <button className='flex group items-center justify-center w-[200px] max-sm:w-[240px] relative py-2 px-4 max-sm:py-1 max-sm:px-3 rounded-3xl bg-[#161616] transition duration-100 overflow-hidden'>
+                <button onClick='mailto:golaiya123@gmail.com' className='flex group items-center justify-center w-[200px] max-sm:w-[240px] relative py-2 px-4 max-sm:py-1 max-sm:px-3 rounded-3xl bg-[#161616] transition duration-100 overflow-hidden'>
                     <div className='relative sm:group-hover:-translate-x-4 transition duration-300 flex space-x-3 max-sm:space-x-1'>
                         <span className='group-hover:scale-125 transition duration-200'>
                             <GoMail size={13} className='text-white my-auto'/>
@@ -185,7 +187,7 @@ const Footer = () => {
                 </button>
 
 
-                <button className='flex group items-center justify-center w-[185px] max-sm:w-[170px] relative py-2 px-2 max-sm:py-1 max-sm:px-3 rounded-3xl bg-[#161616] transition duration-100 overflow-hidden'>
+                <button onClick='tel:+2349065916691' className='flex group items-center justify-center w-[185px] max-sm:w-[170px] relative py-2 px-2 max-sm:py-1 max-sm:px-3 rounded-3xl bg-[#161616] transition duration-100 overflow-hidden'>
                     <div className='relative sm:group-hover:-translate-x-4 transition duration-300 flex space-x-3 max-sm:space-x-1'>
                         <span className='group-hover:scale-125 transition duration-200'>
                             <PiPhoneCallLight size={15} className='text-white my-auto'/>
