@@ -24,4 +24,40 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
+  overscroll-behavior: none;
+}
+
+.no-scrollbar::-webkit-scrollbar {
+    display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+.gallery {
+  display: flex;
+  width: max-content;
+  overflow-x: scroll;
+  scrollbar-width: none;
+  -ms-scrollbar-width: none;
+}
+.gallery::webkit-scrollbar{
+  display: none;
+}
+
+.bar-1{
+  transform: rotate(-45deg) translate(-6px,7px);
+}
+.bar-2{
+  transform: translateX(200%);
+  opacity: 0;
+}
+.bar-3{
+  transform: rotate(45deg) translate(-7px,-8px);
+}
+.transit{
+  transition: all .3s ease;
+}
+.tech-gap{
+  grid-row-gap: 0.65rem;
 }
