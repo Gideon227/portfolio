@@ -280,7 +280,7 @@ const Footer = () => {
             <p className='pt-6 text-center text-[#888888] text-[12px] font-medium whitespace-nowrap'>
                 © 2023 Olaiya Gideon. All Rights Reserved
             </p>
-            <p className='text-center text-[#888888] text-[12px] font-normal whitespace-nowrap pt-2 pb-10'>
+            <p className='text-center text-[#888888] text-[12px] font-normal whitespace-nowrap pt-1 pb-10'>
                 Designed with 💜 by <span className='font-medium'>Me</span>
             </p>
 

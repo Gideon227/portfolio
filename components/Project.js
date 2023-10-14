@@ -53,16 +53,6 @@ const Projects = () => {
           />
         </p>
 
-        {/* <div className="flex justify-between relative my-28">
-          <div className="space-y-4 w-1/2">
-            <h2 className="indent-20 text-[25px] leading-8 text-gray-400 font-medium">A website developer who develop<br /> website that drives conversion</h2>
-            <p className="text-[16px] leading-7 text-gray-400 font-normal">I'm a Full-stack website developer with skills ranging from conceptual thinking to designing and developing high quality and converting websites. <br /> <br />
-            When I'm not sitting in front of a screen writing codes or admiring the work of others, I'm busy learning a new technology or cooking😉. I have a strong passion for modern architecture,martial arts, and cooking.</p>
-          </div>
-          <Image src='/Hero.jpg' alt='a photo of me' width={480} height={560} className="rounded-md "/>
-          <p className="text-[#BE2DF7] text-[15px] absolute ">About</p>
-        </div> */}
-
           <div>
             <p className='sm:text-[16px] text-[12px] py-2 font-normal text-gray-400 leading-6'>FEATURED PROJECTS — </p>
             <h1 className='sm:text-[35px] text-[27px] font-medium text-white'>Stuff I&apos;ve Worked On 📁</h1>
@@ -72,7 +62,7 @@ const Projects = () => {
           <div className="grid grid-cols-2 max-md:grid-cols-1 gap-12">
             {projects?.map((project) => (
               <div key={project.title} className="flex flex-col h-full border-[0.5px] overflow-hidden rounded border-[#333333] align-start">
-              <Image src={project.image} width={450} height={350} alt='project image' className="object-cover w-full align-middle"/>
+              <Image src={project.image} width={450} height={349} alt='project image' className="object-cover w-full align-middle"/>
               <div className="flex flex-col space-y-10 lg:px-12 max-lg:px-5 py-8 flex-wrap align-start">
                 <div className="flex gap-x-2 whitespace-nowrap tech-gap flex-wrap">
                   {project.technologies?.map((item, index) => (

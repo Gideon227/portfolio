@@ -41,7 +41,7 @@ const Navbar = () => {
               initial={{ opacity: 0}}
               animate={{ opacity: 1 }}
               transition={{delay: 3, duration: 0.5, ease: easeIn}}
-              className='z-50 my-auto'
+              className='z-50 my-auto pe-5'
             >
           <button onClick={() => setToggle(prev => !prev)} className='bg-transparent justify-center items-center flex flex-col z-50'>
               <div className={`${toggle ? 'bar-1 bg-black' : 'bg-white'} w-5 h-0.5 my-1 transition duration-300 rounded block cursor-pointer`}></div>

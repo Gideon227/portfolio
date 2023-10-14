@@ -81,7 +81,7 @@ const MenuAnimation = ({ onMenuClick }) => {
             transition={{ ease: [0.12, 0, 0.39, 0], duration: 0.5 }} 
             className='bg-[#FAF8F6] w-1/2 h-[500px] max-sm:h-screen flex justify-center align-middle my-auto'
         >
-            <div className='my-auto sm:me-16 space-y-6'>
+            <div className='my-auto sm:me-16 max-sm:ps-1 space-y-6'>
 
                 <div className='overflow-hidden'>
                     <motion.h2 
