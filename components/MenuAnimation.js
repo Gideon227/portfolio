@@ -113,8 +113,8 @@ const MenuAnimation = ({ onMenuClick }) => {
                         initial='hidden'
                         animate='visible'
                         exit='exit' >
-                    <Link href='/' className='text-[#bbb] leading-6 text-[14px] max-md:text-[12px] tracking-[2px] me-4 '>INSTAGRAM</Link>
-                    <Link href='/' className='text-[#bbb] leading-6 text-[14px] max-md:text-[12px] tracking-[2px] me-4 '>LINKEDIN</Link>
+                    <Link href='https://www.instagram.com/gideondev_/' className='text-[#bbb] leading-6 text-[14px] max-md:text-[12px] tracking-[2px] me-4 '>INSTAGRAM</Link>
+                    <Link href='https://www.linkedin.com/in/gideon-olaiya-852057209/' className='text-[#bbb] leading-6 text-[14px] max-md:text-[12px] tracking-[2px] me-4 '>LINKEDIN</Link>
                     </motion.div>
                 </div>
             </div>
@@ -158,7 +158,8 @@ const MenuAnimation = ({ onMenuClick }) => {
                         animate='visible'
                         exit='exit' 
                         className='align-middle'>
-                       <button onClick={() => onMenuClick(1000)} className='text-[35px] max-md:text-[24px] font-medium text-black hover:text-[#9b876f]'>Works</button> 
+                       <button onClick={() => onMenuClick(950)} className='text-[35px] max-md:text-[24px] font-medium text-black hover:text-[#9b876f] max-md:hidden'>Works</button> 
+                       <button onClick={() => onMenuClick(800)} className='text-[35px] max-md:text-[24px] font-medium text-black hover:text-[#9b876f] md:hidden'>Works</button> 
                 </motion.div>
                 </div>
 
@@ -169,7 +170,8 @@ const MenuAnimation = ({ onMenuClick }) => {
                         animate='visible'
                         exit='exit' 
                         className='align-middle'>
-                       <button onClick={() => onMenuClick(2300)} className='text-[35px] max-md:text-[24px] font-medium text-black hover:text-[#9b876f]'>Testimonials</button> 
+                       <button onClick={() => onMenuClick(2300)} className='text-[35px] max-md:text-[24px] font-medium text-black hover:text-[#9b876f] max-md:hidden'>Testimonials</button> 
+                       <button onClick={() => onMenuClick(2700)} className='text-[35px] max-md:text-[24px] font-medium text-black hover:text-[#9b876f] md:hidden'>Testimonials</button> 
                 </motion.div>
                 </div>
 
@@ -180,7 +182,7 @@ const MenuAnimation = ({ onMenuClick }) => {
                         animate='visible'
                         exit='exit' 
                         className='align-middle'>
-                       <button onClick={() => onMenuClick(3000)} className='text-[35px] max-md:text-[24px] font-medium text-black hover:text-[#9b876f]'>Contact</button> 
+                       <button onClick={() => onMenuClick(3000)} className='text-[35px] max-md:text-[24px] font-medium text-black hover:text-[#9b876f]'>Contact</button>  
                 </motion.div>
                 </div>
 

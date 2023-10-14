@@ -6,6 +6,15 @@ import { AnimatedText } from "./AnimatedText"
 import { easeIn, easeOut, motion } from "framer-motion"
 
 const Hero = () => {
+  const onButtonClick = (top) => {
+    typeof window !== 'undefined' &&
+    setTimeout(() => {
+      window.scrollTo({
+        top,
+        behavior: "smooth",
+      })
+    }, 500)   
+  }
 
   return (
     <section className='pt-8 px-2 w-screen'>
@@ -30,10 +39,10 @@ const Hero = () => {
             transition={{delay: 1.75, duration: 0.5, ease: easeIn}}
             className="w-40"
           >
-            <Link href='/' className="text-[16px] group font-medium text-gray-400 leading-5 mt-10 flex flex-col">
+            <button onClick={() => onButtonClick(950)} className="text-[16px] group font-medium text-gray-400 leading-5 mt-10 flex flex-col">
               VIEW PROJECTS
               <hr className="text-gray-400 w-[80px] group-hover:w-[140px] transit h-px mt-1.5"/>
-            </Link>
+            </button>
           </motion.div>
         </div>
 
