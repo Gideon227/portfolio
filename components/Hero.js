@@ -31,7 +31,7 @@ const Hero = () => {
             className='text-[16px] py-2 font-normal text-gray-400 leading-6'
           /></p> */}
 
-          <h1><AnimatedText text={[`I'm Gideon —`, 'Full stack website developer & designer.']} className='text-[42px] font-medium text-white'/></h1>
+          <h1><AnimatedText text={[`I'm Gideon Olaiya —`, 'Full stack website developer & designer.']} className='text-[42px] font-medium text-white'/></h1>
 
           <motion.div
             initial={{ opacity: 0}}

@@ -22,7 +22,7 @@ const Footer = () => {
             </div>
             <div className='flex justify-center space-x-10 items-center py-4 mx-12'>
                 <button className='flex group w-32 relative py-2 px-4 rounded-3xl bg-white hover:bg-[#F5DD37] transition duration-100 overflow-hidden'>
-                    <div className='relative group-hover:-translate-x-4 transition duration-300 flex space-x-2'>
+                    <div className='relative group-hover:-translate-x-4 transition duration-300 flex space-x-1'>
                         <span className='group-hover:opacity-0 transition duration-200'>
                             <HiOutlineClipboardDocumentList size={17} className='text-black my-auto'/>
                         </span>        
@@ -145,7 +145,7 @@ const Footer = () => {
             </div>
 
             <p className='pt-12 text-center text-[#888888] text-[14px] font-medium whitespace-nowrap'>
-                © 2023 Olaiya Gideon. All Rights Reserved
+                © {new Date().getFullYear()} Olaiya Gideon. All Rights Reserved
             </p>
             <p className='text-center text-[#888888] text-[14px] font-normal whitespace-nowrap pt-4 pb-16'>
                 Designed with 💜 by <span className='font-medium'>Me</span>

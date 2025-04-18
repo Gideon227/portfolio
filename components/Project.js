@@ -24,18 +24,18 @@ const Projects = () => {
       link: 'https://webmastry.com/',
       technologies: ['WEBFLOW', 'HTML', 'CSS', 'JAVASCRIPT']
     },
-     {
-      image :'/Cnc.png',
-      title : 'CAREER NETWORK CLUB',
-      link: 'https://www.careernetworkclub.ca/',
-      technologies: ['WORDPRESS', 'ELEMENTOR', 'MEMBERPRESS', 'WOOCOMMERCE']
+    {
+      image :'/anonymousmessaging.vercel.app_.png',
+      title : 'ANONYMOUS MESSAGING',
+      link: 'https://anonymousmessaging.vercel.app/',
+      technologies: ['NEXTJS', 'NESTJS', 'MONGODB']
     },
-     {
-      image :'/mirror.png',
-      title : 'MIRROR STORE (IN PRODUCTION)',
-      link: '/',
-      technologies: ['NEXTJS', 'MONGODB', 'TAILWIND CSS', 'NEXT-AUTH']
-    }
+    {
+      image :'/auteur.png',
+      title : 'AUTEUR',
+      link: 'https://www.auteur.com/',
+      technologies: ['SHOPIFY', 'CSS', 'JAVASCRIPT']
+    }  
    ]
   return (
     <section className='lg:py-8 py-2 px-10'>
